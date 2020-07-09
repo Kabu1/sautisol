@@ -1,7 +1,39 @@
+body{
+    background: rgb(173, 186, 209);
+}
+/*about section styling*/
 .about h1{
-    color: blueviolet;
+    color: rgb(43, 76, 226);
     text-align: center;
 }
 .about ul{
     font-weight: bolder;
+}
+.about{
+    float: left;
+    width: 72%;
+}
+.about h4{
+    color: rgb(206, 98, 25);
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*sidebar section styling*/
+.sidebar {
+    width: 25%;
+    float: right;
+    background-color: rgb(177, 177, 50);
+  }
+.sidebar img{
+    height: 250px;
+    width: 250px;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+}
+.sidebar h2{
+    text-align: center;
+    background-color: whitesmoke;
 }
